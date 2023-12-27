@@ -1,0 +1,30 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "- [Экзамен: правила, рекомендации и порядок проведения](https://hexly.notion.site/d9289c18871c44508bc7c7f05a51d94f)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "simple-git-hooks": {
+    "pre-push": "make lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sseezov/test1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sseezov/test1/issues"
+  },
+  "homepage": "https://github.com/sseezov/test1#readme",
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "npm-check-updates": "^16.10.11",
+    "simple-git-hooks": "^2.8.1"
+  }
+}
