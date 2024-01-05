@@ -17,7 +17,7 @@ test('task2', () => {
 
 test('task3', () => {
   const castBoolean = functions.castBoolean;
-  assert.equal(functions.castBoolean(1, 2), true)
+  assert.equal(functions.castBoolean(1), true)
   assert.equal(functions.castBoolean(0), false);
   assert.equal(functions.castBoolean(console.log), true);
   assert.equal(functions.castBoolean(castBoolean(castBoolean)), 'already boolean');
