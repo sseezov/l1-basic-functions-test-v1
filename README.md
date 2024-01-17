@@ -51,14 +51,7 @@ castBoolean(console.log); // true
 castBoolean(castBoolean(castBoolean)); // 'already boolean'
 ```
 
-## 4 задача
 
-Напишите функцию `sortByLength()`, которая принимает 3 строковых значения на вход и возвращает одну строку, которая располагает эти слова друг за другом в порядке увеличения длины, начиная с самого короткого слова и соединяет их пробелами.
-
-```javascript
-sortByLength('a', 'bcd', 'yz'); // 'a yz bcd'
-sortByLength('let', 'ex', 'H'); // 'H ex let'
-```
 
 ## 5 задача
 
